@@ -74,12 +74,14 @@ colcon build
 
 source install/setup.bash
 
+```
 ## Usage
 Projenin nasıl kullanılacağı anlatılacaktır.
 
 
 ## Results
-Elde edilen sonuçlar burada paylaşılacaktır.
+[Counting Process Video](https://youtu.be/L9rVO-HDzt0)
 
 ## Contact
-İletişim bilgileri burada yer alacaktır.
+For any questions or feedback, please contact:  
+• E-mail: mehmetzekisildir@gmail.com
