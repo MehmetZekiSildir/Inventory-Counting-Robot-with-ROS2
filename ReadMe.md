@@ -38,14 +38,50 @@ The Inventory Counting Robot must perform a series of tasks sequentially. There 
 <p align="center">Process Flow Diagram</p>
 
 ## Installation
-Kurulum adımları burada yer alacaktır.
 
+```bash
+
+### Necessary Package Installation 
+
+sudo apt install ros-humble-rplidar-ros
+
+sudo apt install ros-humble-navigation2
+
+sudo apt install ros-humble-nav2-bringup
+
+sudo apt install ros-humble-turtlebot3*
+
+sudo apt install ros-humble-slam-toolbox
+
+
+### Create a ROS2 workspace
+
+mkdir -p ~/counting_ws/src
+
+cd ~/counting_ws/src
+
+### Clone the repository
+
+git clone https://github.com/MehmetZekiSildir/Inventory-Counting-Robot-with-ROS2.git
+
+### Navigate to the workspace and build the project
+
+cd ~/counting_ws
+
+colcon build
+
+#### Source the workspace
+
+source install/setup.bash
+
+```
 ## Usage
 Projenin nasıl kullanılacağı anlatılacaktır.
 
 
 ## Results
-Elde edilen sonuçlar burada paylaşılacaktır.
+[Counting Process Video](https://youtu.be/L9rVO-HDzt0)
 
 ## Contact
-İletişim bilgileri burada yer alacaktır.
+For any questions or feedback, please contact:  
+• E-mail: mehmetzekisildir@gmail.com
