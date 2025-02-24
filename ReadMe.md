@@ -26,7 +26,7 @@ The design of the study was carried out on Fusion 360. After the design, the pro
 ## Physical System ##
 The profiles were cut according to the dimensions drawn in the Fusion 360 program, and the skeleton was created. The RFID system was then built onto this skeleton.
 <p align="center">
-  <img src="images/Physical_ System.jpg" alt="IRobot Create-3" />
+  <img src="images/inventory_robot.jpg" alt="IRobot Create-3" />
 </p>
 <p align="center">Physical System</p>
 
