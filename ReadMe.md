@@ -76,7 +76,18 @@ source install/setup.bash
 
 ```
 ## Usage
-Projenin nasıl kullanılacağı anlatılacaktır.
+| Package Name | Function | 
+|----------|----------|
+| bag | This folder contains the recorded data of all topics during the robot's navigation while using the NavFn planner and the DWB controller. It also includes the data from the /rfid_message topic, which covers RFID tag readings. | 
+| commander_pkg | This folder contains the package software that includes the points the robot will pass through. When the main_workflow.py script is executed, the robot will exit the charging station, follow the positions given as a list, and finally return to the charging station. | 
+| images | This folder contains the images shared in the ReadMe section of the project.| 
+| laser_filters | This folder contains the software used to filter unwanted Lidar data. Inside the examples folder, there are multiple launch files for different methods. In my study, I used the angular_filter_example.launch.py launch file. | 
+| lidar_drive_pkg | This folder contains the driver file for the RPLIDAR-A1 LiDAR. | 
+| mapping_pkg | This folder contains the mapping software that allows generating the map of the environment needed before navigation. After the necessary frame and LiDAR adjustments are made, the environment's map can be created by running the online_async_launch.py file. | 
+| rfid_interface | This folder contains the message files I created specifically for RFID tags.|  
+| rfid_pub | This folder contains the software that publishes the tag information read via serial communication from the RFID reader in the ROS2 environment. The rfid_reader_launch.py Python launch file located in the launch folder is used.| 
+| robot_navigation_pkg | This folder contains the software required for navigation. By running the main.launch.py file located in the launch folder, all necessary files are executed. The file path of the generated map file must be provided correctly.| 
+
 
 
 ## Results
